@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division 01</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <p class = "intro">Positive and Negative numbers</p>
+    <p>Division</p>
+    <section class = "firstBigSection">
+    <section>
+        <span class = "i">50 / 5 </span><span>=</span> <input type = "number"class = "iIn"><br>
+        <span class = "ii">70 / 5 </span><span>=</span> <input type = "number"class = "iiIn"><br>
+        <span class = "iii">10 / 5 </span><span>=</span> <input type = "number"class = "iiiIn"><br>
+        <span class = "iv">15 / 5 </span><span>=</span> <input type = "number"class = "ivIn"><br>
+        <span class = "v">20 / 5 </span><span>=</span> <input type = "number"class = "vIn"><br>
+        <span class = "vi">25 / 5 </span><span>=</span> <input type = "number"class = "viIn"><br>
+        <span class = "vii">30 / 5 </span><span>=</span> <input type = "number"class = "viiIn"><br>
+        <span class = "viii">35 / 5 </span><span>=</span> <input type = "number"class = "viiiIn"><br>
+        <span class = "ix">40 / 5 </span><span>=</span> <input type = "number"class = "ixIn"><br>
+        <span class = "x">45 / 5 </span><span>=</span> <input type = "number"class = "xIn"><br>
+    </section>
+    <section>
+        <span class = "i_01">60 / 6 </span><span>=</span> <input type = "number"class = "iIn_01"><br>
+        <span class = "ii_01">12 / 6 </span><span>=</span> <input type = "number"class = "iiIn_01"><br>
+        <span class = "iii_01">24 / 6 </span><span>=</span> <input type = "number"class = "iiiIn_01"><br>
+        <span class = "iv_01">36 / 6 </span><span>=</span> <input type = "number"class = "ivIn_01"><br>
+        <span class = "v_01">48 / 6 </span><span>=</span> <input type = "number"class = "vIn_01"><br>
+        <span class = "vi_01">66 / 6 </span><span>=</span> <input type = "number"class = "viIn_01"><br>
+        <span class = "vii_01">72 / 6 </span><span>=</span> <input type = "number"class = "viiIn_01"><br>
+        <span class = "viii_01">84 / 6 </span><span>=</span> <input type = "number"class = "viiiIn_01"><br>
+        <span class = "ix_01">96 / 6 </span><span>=</span> <input type = "number"class = "ixIn_01"><br>
+        <span class = "x_01">99 / 6 </span><span>=</span> <input type = "number"class = "xIn_01"><br>
+    </section>
+    <section>
+        <span class = "i_02">70 / 7 </span><span>=</span> <input type = "number"class = "iIn_02"><br>
+        <span class = "ii_02">84 / 7 </span><span>=</span> <input type = "number"class = "iiIn_02"><br>
+        <span class = "iii_02">14 / 7 </span><span>=</span> <input type = "number"class = "iiiIn_02"><br>
+        <span class = "iv_02">21 / 7 </span><span>=</span> <input type = "number"class = "ivIn_02"><br>
+        <span class = "v_02">28 / 7 </span><span>=</span> <input type = "number"class = "vIn_02"><br>
+        <span class = "vi_02">35 / 7 </span><span>=</span> <input type = "number"class = "viIn_02"><br>
+        <span class = "vii_02">42 / 7 </span><span>=</span> <input type = "number"class = "viiIn_02"><br>
+        <span class = "viii_02">49 / 7 </span><span>=</span> <input type = "number"class = "viiiIn_02"><br>
+        <span class = "ix_02">56 / 7 </span><span>=</span> <input type = "number"class = "ixIn_02"><br>
+        <span class = "x_02">63 / 7 </span><span>=</span> <input type = "number"class = "xIn_02"><br>
+    </section>
+    <section>
+        <span class = "i_03">80 / 8 </span><span>=</span> <input type = "number"class = "iIn_03"><br>
+        <span class = "ii_03">96 / 8 </span><span>=</span> <input type = "number"class = "iiIn_03"><br>
+        <span class = "iii_03">16 / 8 </span><span>=</span> <input type = "number"class = "iiiIn_03"><br>
+        <span class = "iv_03">24 / 8 </span><span>=</span> <input type = "number"class = "ivIn_03"><br>
+        <span class = "v_03">32 / 8 </span><span>=</span> <input type = "number"class = "vIn_03"><br>
+        <span class = "vi_03">40 / 8 </span><span>=</span> <input type = "number"class = "viIn_03"><br>
+        <span class = "vii_03">48 / 8 </span><span>=</span> <input type = "number"class = "viiIn_03"><br>
+        <span class = "viii_03">56 / 8 </span><span>=</span> <input type = "number"class = "viiiIn_03"><br>
+        <span class = "ix_03">64 / 8 </span><span>=</span> <input type = "number"class = "ixIn_03"><br>
+        <span class = "x_03">72 / 8 </span><span>=</span> <input type = "number"class = "xIn_03"><br>
+    </section>
+</section>
+<button class = "checkButton01">Check</button>
+<button class = "continueButton02"> Continue </button>
+</body>
+<script rel = "text" src="AddSubBackEnd.js"></script>
+<script>
+    const cb01 = document.querySelector('.cButton01')
+    const newLocation = function(x){
+    window.location = x}
+    cb01.addEventListener('click', ()=>newLocation('Division01.html'))  
+</script>
+</html>
